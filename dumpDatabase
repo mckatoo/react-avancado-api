@@ -1,3 +1,3 @@
 #!/bin/sh
 
-psql -hlocalhost -U strapi -d strapi -W < strapi.sql
+pg_dump -c --if-exists --exclude-table=strapi_administrator -h localhost -U strapi -d strapi -W > strapi.sql
