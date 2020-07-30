@@ -28,7 +28,7 @@
     },
     "socialLinks": {
       "type": "component",
-      "repeatable": false,
+      "repeatable": true,
       "component": "page.social-links",
       "required": true
     },

@@ -22,7 +22,7 @@
       "type": "component",
       "repeatable": false,
       "component": "page.header",
-      "required": true
+      "required": false
     },
     "sectionAboutProject": {
       "type": "component",
