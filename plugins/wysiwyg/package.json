@@ -7,10 +7,7 @@
     "icon": "plug",
     "description": "CKEditor to rich text fields."
   },
-  "dependencies": {
-    "@ckeditor/ckeditor5-build-classic": "^20.0.0",
-    "@ckeditor/ckeditor5-react": "^2.1.0"
-  },
+  "dependencies": {},
   "author": {
     "name": "A Strapi developer",
     "email": "",
