@@ -1,8 +1,0 @@
-{
-  "provider": "cloudinary",
-  "providerOptions": {
-    "cloud_name": "mckatoo",
-    "api_key": "613684626361223",
-    "api_secret": "zKs6Zo1abe7IM8WriaAVlwby3wI"
-  }
-}
