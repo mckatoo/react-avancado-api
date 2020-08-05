@@ -3026,7 +3026,7 @@ clone@^1.0.2:
   resolved "https://registry.yarnpkg.com/clone/-/clone-1.0.4.tgz#da309cc263df15994c688ca902179ca3c7cd7c7e"
   integrity sha1-2jCcwmPfFZlMaIypAheco8fNfH4=
 
-cloudinary@^1.14.0:
+cloudinary@^1.11.0, cloudinary@^1.14.0:
   version "1.22.0"
   resolved "https://registry.yarnpkg.com/cloudinary/-/cloudinary-1.22.0.tgz#48a36aab98838f910d350300419e2b10e4eb7e6b"
   integrity sha512-qQhSVqGyOWtGbPc3JrwyUXJEZpdqsEzBFSf5+gTo7gbKbXdzEysLagigoSlp6JYI7YW2oEbz4aeZlgN2ucOkzQ==
@@ -4556,7 +4556,7 @@ friendly-errors-webpack-plugin@^1.7.0:
     error-stack-parser "^2.0.0"
     string-width "^2.0.0"
 
-from2@^2.1.0, from2@^2.3.0:
+from2@^2.1.0, from2@^2.1.1, from2@^2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/from2/-/from2-2.3.0.tgz#8bfb5502bde4a4d36cfdeea007fcca21d7e382af"
   integrity sha1-i/tVAr3kpNNs/e6gB/zKIdfjgq8=
@@ -5416,6 +5416,14 @@ intl-messageformat@^8.3.7:
   dependencies:
     intl-format-cache "^4.2.43"
     intl-messageformat-parser "^5.2.1"
+
+into-stream@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/into-stream/-/into-stream-3.1.0.tgz#96fb0a936c12babd6ff1752a17d05616abd094c6"
+  integrity sha1-lvsKk2wSur1v8XUqF9BWFqvQlMY=
+  dependencies:
+    from2 "^2.1.1"
+    p-is-promise "^1.1.0"
 
 into-stream@^5.1.0:
   version "5.1.1"
@@ -7195,6 +7203,11 @@ p-finally@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/p-finally/-/p-finally-1.0.0.tgz#3fbcfb15b899a44123b34b6dcc18b724336a2cae"
   integrity sha1-P7z7FbiZpEEjs0ttzBi3JDNqLK4=
+
+p-is-promise@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/p-is-promise/-/p-is-promise-1.1.0.tgz#9c9456989e9f6588017b0434d56097675c3da05e"
+  integrity sha1-nJRWmJ6fZYgBewQ01WCXZ1w9oF4=
 
 p-is-promise@^3.0.0:
   version "3.0.0"
@@ -9625,6 +9638,17 @@ strapi-provider-email-sendmail@3.1.1:
     sendmail "^1.6.1"
     strapi-utils "3.1.1"
 
+<<<<<<< HEAD
+=======
+strapi-provider-upload-cloudinary-fix@^3.0.0-beta.16.2-4:
+  version "3.0.0-beta.16.2-4"
+  resolved "https://registry.yarnpkg.com/strapi-provider-upload-cloudinary-fix/-/strapi-provider-upload-cloudinary-fix-3.0.0-beta.16.2-4.tgz#afd4d24b4e7feb5765c4137d97b044736a8fdf1d"
+  integrity sha512-0w/rEENvDY0aNs3CRmlibw+oz+DB2sDzyiCtRXwtBylC5NA4NiYBXyQuc3eGzQG1MS9unu5JYwne48fIH+pJeg==
+  dependencies:
+    cloudinary "^1.11.0"
+    into-stream "^3.1.0"
+
+>>>>>>> cloudinary
 strapi-provider-upload-cloudinary-preserve-filename@pointout/strapi-provider-upload-cloudinary-preserve-filename:
   version "1.0.3"
   resolved "https://codeload.github.com/pointout/strapi-provider-upload-cloudinary-preserve-filename/tar.gz/94f993be3f98890cb69e174826b147add5b47474"
