@@ -1,0 +1,69 @@
+{
+  "kind": "singleType",
+  "collectionName": "i_katoos",
+  "info": {
+    "name": "iKatoo"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.header",
+      "required": true
+    },
+    "logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "sectionTech": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-tech",
+      "required": true
+    },
+    "sectionAboutProject": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-about-project",
+      "required": true
+    },
+    "sectionConcepts": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-concepts",
+      "required": true
+    },
+    "sectionProjects": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-modules",
+      "required": false
+    },
+    "sectionAboutUs": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-about-us",
+      "required": true
+    },
+    "sectionReviews": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-reviews"
+    },
+    "sectionFaq": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-faq",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/i-katoo",
+      "handler": "i-katoo.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/i-katoo",
+      "handler": "i-katoo.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/i-katoo",
+      "handler": "i-katoo.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
